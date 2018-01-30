@@ -3,7 +3,7 @@
     "description": "Console to manage integration of Toolkit with AWS Cloud9.",
     "type": "library",
     "require": {
-        "symfony/console": "^4.0"
+        "symfony/console": "3.4.4"
     },
     "authors": [
         {
