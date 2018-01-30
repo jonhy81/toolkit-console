@@ -1,5 +1,5 @@
 {
-    "name": "jsantos/toolkit-console",
+    "name": "jonhy81/toolkit-console",
     "description": "Console to manage integration of Toolkit with AWS Cloud9.",
     "type": "library",
     "require": {
