@@ -12,9 +12,8 @@
         }
     ],
     "autoload": {
-    "psr-4": {
-            "Toolkit\\Console": "src/Commands"
+        "psr-4": {
+            "Toolkit\\Console\\": "src/Commands"
         }
-    },
-
+    }
 }
