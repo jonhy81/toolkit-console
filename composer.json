@@ -1,0 +1,20 @@
+{
+    "name": "jsantos/toolkit-console",
+    "description": "Console to manage integration of Toolkit within AWS Cloud 9.",
+    "type": "library",
+    "require": {
+        "symfony/console": "^4.0"
+    },
+    "authors": [
+        {
+            "name": "Joao Santos",
+            "email": "jonhy81@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+            "Toolkit\\Console": "src/Commands"
+        }
+    },
+
+}
