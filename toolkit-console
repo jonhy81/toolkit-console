@@ -7,7 +7,7 @@ require __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 
-use Toolkit\Console\ProvisionCommand;
+use Toolkit\Console\Commands\ProvisionCommand;
 
 $application = new Application();
 $application->add(new ProvisionCommand());

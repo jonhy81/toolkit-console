@@ -1,6 +1,6 @@
 {
     "name": "jsantos/toolkit-console",
-    "description": "Console to manage integration of Toolkit within AWS Cloud 9.",
+    "description": "Console to manage integration of Toolkit with AWS Cloud9.",
     "type": "library",
     "require": {
         "symfony/console": "^4.0"
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Toolkit\\Console\\": "src/Commands"
+            "Toolkit\\Console\\": "src/Console"
         }
     }
 }
