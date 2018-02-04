@@ -1,0 +1,25 @@
+#!/usr/bin/env php
+
+<?php
+
+// Make sure that we autoload all dependencies if running via Composer.
+if (PHP_VERSION_ID >= 50302) {
+    if (file_exists($a = dirname(__FILE__).'/../../../../autoload.php') === true) {
+        include_once $a;
+    } else if (file_exists($a = dirname(__FILE__).'/../../../vendor/autoload.php') === true) {
+        include_once $a;
+    } else if (file_exists($a = dirname(__FILE__).'/../../vendor/autoload.php') === true) {
+        include_once $a;
+    } else if (file_exists($a = dirname(__FILE__).'/vendor/autoload.php') === true) {
+        include_once $a;
+    }
+}
+
+use Symfony\Component\Console\Application;
+
+// use Toolkit\Console\Commands\BuildProjectCommand;
+use Toolkit\Console\Commands\QualityAssuranceCommand;
+
+$application = new Application();
+$application->add(new QualityAssuranceCommand());
+$application->run();
