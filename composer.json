@@ -3,7 +3,7 @@
     "description": "Console to simplify QA process.",
     "type": "library",
     "require": {
-        "symfony/console": "3.4.4"
+        "symfony/console": "*"
     },
     "authors": [
         {
